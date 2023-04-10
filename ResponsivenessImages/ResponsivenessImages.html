@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Responsiveness images</title>
+    </head>
+        <body>
+               <figure>
+                
+                <img 
+                srcset="banana-2x.jpg 960w,
+                        banana-3x.jpg 480w,
+                        banana-4x.jpg 240w
+                        banana-8x.jpg 120w"
+                        
+                        sizes="(max-width: 600px) 480px,
+                        600px"                
+                src="banana.jpg" 
+                 alt="small bunch of yellow bananas">
+                 
+                 
+                <figcaption>bunch of bananas</figcaption>
+            </figure>  
+            
+          
+            <!-- Adaptive images -->
+            
+            <!-- <picture>
+                <source media="(min-width: 600px)"
+                srcset="banana.jpg 1920w,
+                        banana-2x.jpg 960w"
+                >
+
+                <source srcset="download.jpg">
+                <img source="banana.jpg">
+
+            </picture>  -->
+             
+        </body>
+   
+</html>
